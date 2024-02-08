@@ -1,9 +1,10 @@
 import './App.css'
+import Signuppage from './components/Signuppage';
 
 const App = () => {
   return (
-    <div className='bg-blue-400'>
-      Hello World
+    <div className='bg-black text-white w-full h-screen'>
+      <Signuppage/>
     </div>
   )
 }
